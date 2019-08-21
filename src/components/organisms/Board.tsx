@@ -73,7 +73,7 @@ const Board: FC<BoardProps> = ({
     clearAutoResolve();
 
     return () => clearAutoResolve();
-  }, [boardSize, startingPosition, clearAutoResolve]);
+  }, [boardSize, startingPosition]);
 
   return (
     <Flex alignItems="flex-start" justifyContent="center" my="2rem" width={1}>
